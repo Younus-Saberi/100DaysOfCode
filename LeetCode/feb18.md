@@ -21,3 +21,36 @@ Output: [2,3,1]
 ## Constraints:
 - The number of nodes in the tree is in the range [0, 100].
 - -100 <= Node.val <= 100
+
+
+# JAVA SOLUTION 💻
+
+```
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public TreeNode invertTree(TreeNode root) {
+          if(root == null){
+            return null;
+        }
+        TreeNode left = root.left;
+        TreeNode right = root.right;
+        root.left = invertTree(right);
+        root.right = invertTree(left);
+        return root;
+    }
+}
+```
