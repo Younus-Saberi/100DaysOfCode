@@ -1,3 +1,3 @@
-# Daily-DSA-Problem-solution
+# 100DaysofCode with Daily-DSA-Problem-solution
 
 # Happy Coding!!!
