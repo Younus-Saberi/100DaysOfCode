@@ -10,7 +10,7 @@ package patterns;
 *  ****`
 *
 * */
-public class pattern01 {
+public class Pattern01 {
     public static void main(String[] args) {
         pattern1(5);
     }

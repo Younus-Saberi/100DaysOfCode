@@ -8,7 +8,7 @@ package patterns;
  1 2 3 4 5`
 */
 
-public class pattern03 {
+public class Pattern03 {
     public static void main(String[] args) {
         pattern03(5);
     }

@@ -12,7 +12,7 @@ This will print the pattern in below format
 
 */
 
-public class pattern02 {
+public class Pattern02 {
     public static void main(String[] args) {
         pattern02(5);
     }
